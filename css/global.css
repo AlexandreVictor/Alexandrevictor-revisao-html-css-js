@@ -6,46 +6,49 @@ h2 {
    		color: #333333;
 		font-family: "Arial", sans-serif;
 	}
-.sacola {
-
-	    font-size: 14px;
-        padding-right: 35px;
-        text-align: right;
-        width: 140px;
-        padding-top: 8px;
-        position: absolute;
-        top: 0;
-        right: 0;
+.titulo{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 710px;
 }
-.container  {
-        margin:auto;
-        width: 940px;
-          }
-.menu-opcoes ul {
-      font-size: 15px;
-         }
- .menu-opcoes ul li{
-        display: inline;
-        margin-left: 20px;
-        }
- .menu-opcoes a{
-          color:  #003366
-          }
-.menu-opcoes{
-          position: absolute;
-          bottom: -28px;
-          right: 0;
-                      }
-header      {
+.menu {
+	padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+.menu ul ,li, a {
+    padding: 2px 30px;
+    display: inline-block;
+		/* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+.navbar{
+	position: relative;
+	margin-bottom: 5px;
+	border: 1px solid transparent;
+	}
+header  {
         position: relative;
-                }
-.painel{
-    margin: 1px;
-    padding: 10px;
-    width: 945px;
-    /* display: inline; */
-    }
-.mais-acessados {
-    float: left;
-    background-color: rgba(187, 185, 185, 0.14);
-    }
+        }
+.MdFormato {
+	color: #ff0000;
+/*	text-align:center;
+	align:center*/
+	}
+.VltFormato {
+		color:#000000
+		text-align:center;
+		align:center
+}
+.navbar-inverse {
+  background-color: #222;
+  height:100px;
+}
+
+  
